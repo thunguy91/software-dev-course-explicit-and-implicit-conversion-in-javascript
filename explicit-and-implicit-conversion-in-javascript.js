@@ -33,8 +33,8 @@ console.log("Total Age: " + totalAge);
 
 //Part 2. 
 // Implicit Type Conversion*/
-let totalPeople = 10;
-console.log(totalPeople == 7 + 3);
+let totalPeople = undefined;
+console.log(totalPeople == null);
 
 //Explicit Type Conversion*/
 let totalSquareFeet = 12;
