@@ -24,9 +24,18 @@ console.log("The result is: " + result);
 
 let isValid = Boolean("false");
 if (isValid) {
-    console.log("This is valid!");
+  console.log("This is valid!");
 }
 
 let age = "25";
-let totalAge = age + 5;
+let totalAge = Number(age) + 5; // added Number() function to convert value of age to a number for correct math output
 console.log("Total Age: " + totalAge);
+
+//Part 2. 
+// Implicit Type Conversion*/
+let totalPeople = 10;
+console.log(totalPeople == 7 + 3);
+
+//Explicit Type Conversion*/
+let totalSquareFeet = 12;
+console.log(Boolean(totalSquareFeet)); 
